@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def index():
 
-    return "Starting machine learning project"
+    return "CI CD pipeline has been created"
 
 if __name__=="__main__":
     app.run(debug=True)
